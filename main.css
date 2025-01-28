@@ -1,0 +1,94 @@
+/* AJUSTES GLOBAIS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #e0e0e0;
+    padding: 10px 15px;
+}
+
+/* ESTILIZAÇÃO DO FORMULÁRIO */
+
+header h1{
+    font-size: 40px;
+    color: #686868;
+    text-align: center;
+}
+
+.container{
+    max-width: 360px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form{
+    display: block;
+    color: #303650;
+    border: none;
+    padding: 20px;
+    justify-items: center;
+}
+
+.nome{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nome label{
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.nome input{
+    width: 174px;
+}
+.telefone{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.telefone label{
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+button{
+
+    padding: 5px 84px;
+    font-weight: bold;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* ESTILIZAÇÃO DA TABELA */
+
+table{
+    /* tabela pegar 100% do espaço do container */
+    width: 100%;
+    margin-bottom: 40px;
+}
+table thead th{
+    padding: 8px;
+    text-align: left;
+    font-weight:600;
+}
+table tbody th{
+    padding: 8px;
+    font-weight: lighter;
+    text-align: left;
+}
+
+/* RODAPÉ */
+.by{
+    text-align: center;
+}
